@@ -55,3 +55,6 @@ background-color: var(--branco);
 .container_botao {
     display: none;
 }
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");

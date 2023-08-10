@@ -20,3 +20,6 @@ body {
     background-image: url("./img/MenuAberto.png");
     display: inline-block;
 }   
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
