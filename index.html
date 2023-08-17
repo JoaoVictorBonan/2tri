@@ -57,23 +57,48 @@
                 <!-- Slider main container -->
 <div class="swiper">
     <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div>
-      <div class="swiper-slide"><img src="img/Liderança.png" alt="Livro sobre apache Kafka e spring boot da AluraBooks"></div>
-        
-        <div class="swiper-slide"><img src="img/ApacheKafka.png" alt="Livro sobre JavaScript da AluraBooks"></div>
-        
-        <div class="swiper-slide"><img src="img/Javascript.png" alt="Livro sobre Portugol da AluraBooks"></div>
-    </div> 
-
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
-  
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/Liderança.png" alt="Livro sobre apache Kafka e spring boot da AluraBooks"></div>
+        <div class="swiper-slide"><img src="img/ApacheKafka.png" alt="Livro sobre JavaScript da AluraBooks"></div>
+        <div class="swiper-slide"><img src="img/Javascript.png" alt="Livro sobre Portugol da AluraBooks"></div>
+    </div>
     <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
-  
+    <div class=”card”>
+        <!-- Primeira linha -->
+        <div class=”card__descricao”>
+        <!-- Primeira coluna -->
+        <div class=”descricao”>
+        <h3 class=”descricao__titulo”>Talvez você também se interesse
+        
+        por...</h3>
+        
+        <h2 class=”descricao__titulo-livro”>Angular 11 e Firebase</h2>
+        <p class=”descricao__texto”>Construindo uma aplicação integrada
+        
+        com a plataforma do Google.</p>
+        
+        </div>
+        <!-- Segunda coluna -->
+        <img src=”img/Angular.svg” class=”descricao__imagem”>
+        <!-- Segunda linha -->
+<div class=”card__botoes”>
+   <!-- Primeira coluna -->
+<ul class=”botoes”>
+
+    <li class=”botoes__item”><img src=”img/Favoritos.svg”
+    alt=”Favoritar livro”></li>
+    <li class=”botoes__item”><img src=”img/Compras.svg” 
+    alt=”Adicionar no carrinho de compras”></li>
+    </ul>
+    <!-- Segunda coluna -->
+    <a href=”#” class=”botoes__ancora”>Saiba mais</a> 
+        </div>
+        </div>
     <!-- If we need scrollbar -->
     <div class="swiper-scrollbar"></div>
   </div>
@@ -87,4 +112,5 @@
                 </script> 
     </body>
 </html> 
+
 
