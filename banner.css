@@ -29,3 +29,10 @@
     background: url("../img/Lupa.svg") no-repeat;
 background-position: 1em;
 }
+.botoes__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    }
