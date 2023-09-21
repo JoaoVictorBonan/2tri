@@ -36,3 +36,11 @@ body {
         --fonte-principal: “Poppins”;
         --azul: #002f52;
         }
+        @media screen and (min-width: 1024px) {
+            .contato {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            }
