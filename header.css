@@ -58,3 +58,7 @@ background-color: var(--branco);
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/carrossel.css");
+.opcoes__link {
+    text-decoration: none;
+    color: var(--preto);
+    }
